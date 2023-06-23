@@ -1,0 +1,5 @@
+User registration and login system: Develop a PHP script that allows users to register an account by providing their username, email, and password. Implement a login system that validates the user's credentials and grants access to a protected page.
+
+File upload and manipulation: Build a PHP script that allows users to upload an image file to the server. Bonus if you can use css and JavaScript to make the process bar when we uploaded and allow upload multiples files.
+
+Simple CRUD application: Create a PHP application that interacts with a database. Implement the CRUD (Create, Read, Update, Delete) operations for a specific entity, such as a "task" or "product." Users should be able to add new items, view existing ones, update details, and delete items.
