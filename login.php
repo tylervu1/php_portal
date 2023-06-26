@@ -1,9 +1,9 @@
 <?php
-require 'database.php';
+$pdo = require 'database.php';
 
 if (isset($_POST['login'])) {
     $username = $_POST['username'];
-    $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
+    $password = $_POST['password'];
     
     $sql = "SELECT * FROM users WHERE username = ?";
     $stmt = $pdo->prepare($sql);
