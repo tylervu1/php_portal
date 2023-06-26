@@ -20,6 +20,6 @@ function connect(string $host, string $port, string $db, string $user, string $p
     }
 }
 
-return connect($host, $db, $user, $password);
+return connect($host, $port, $db, $user, $password);
 
 ?>
