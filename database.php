@@ -3,7 +3,7 @@
 
 require_once 'config.php';
 
-function connect(string $host, string $db, string $user, string $password): PDO
+function connect(string $host, string $port, string $db, string $user, string $password): PDO
 {
     try {
         $dsn = "pgsql:host=$host;port=$port;dbname=$db;";
